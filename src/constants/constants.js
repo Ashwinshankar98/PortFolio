@@ -1,0 +1,38 @@
+export const projects = [
+  {
+    title: 'Netflix-Clone',
+    description: "Netflix Clone Web-app made using React, Which replicates the UI of Netflix along with functionalities like viewing trailers of a chosen title. The app has been deployed on firebase. Additional features will be incorporated in the future.",
+      image: '/images/img1.jpg',
+      tags: ['React', 'Node','Firebase'],
+    source: 'https://netflix-clone-e5b0e.web.app/',
+    visit: 'https://github.com/Ashwinshankar98/Netflix-Clone',
+    id: 0,
+  },
+  {
+    title: 'Tinder-Clone',
+    description:"Tinder Clone web app made using React, Which replicates the functionalities of the tinder app and is deployed on Heroku. The App currently has minimal features but I'm planning to add other components as well. ",
+    image: '/images/img2.jpg',
+    tags: ['React', 'Node', 'MongoDB', 'Express'],
+    source: 'https://tinderfront-ashwin.herokuapp.com/',
+    visit: 'https://github.com/Ashwinshankar98/Tinder-Clone',
+    id: 1,
+  },
+  {
+    title: 'TeachersPet Discord BOT',
+    description: "Teacher's Pet is a Discord Bot for class instructors to streamline their Discord servers. Discord is a great tool for communication and its functionalities can be enhanced by bots and integrations.This bot allows instructors to host their classes on Discord, combining communication tools with functionality for assignments, scheduling, and office hours. Instructors and students no longer have to go between platforms to view course details, forums, events, calls, and more.",
+      image: '/images/img3.jpeg',
+      tags: ['Python'],
+    source: 'https://github.com/Ashwinshankar98/TeachersPetBot',
+    visit: 'https://github.com/Ashwinshankar98/TeachersPetBot',
+    id: 2,
+  },
+  {
+    title: 'WriteRight Chrome Extension',
+    description: "Write Right, is a writing assistant (Chrome Extension) that provides meanings, synonyms, antonyms, and more, helping in constructing good content. Any word can be selected from the webpage and the corresponding meaning and other information is offered to the user.",
+    image: '/images/img4.jpg',
+    tags: ['JavaScript','HTML','CSS'],
+    source: 'https://github.com/shakthinandana/Write_Right',
+    visit: 'https://github.com/shakthinandana/Write_Right',
+    id: 3,
+  },
+];
